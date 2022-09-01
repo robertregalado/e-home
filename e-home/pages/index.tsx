@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 //import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 import Header from '../components/Header'
+import Feed from '../components/Feed'
 
 const Home: NextPage = () => {
   return (
@@ -15,10 +16,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='grid grid-cols-9'>
-        <Header />
+
+
         <Sidebar />
 
+
         {/* Feed */}
+        <Feed />
 
       </main>
 
